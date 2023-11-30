@@ -4,6 +4,10 @@
   "description": "The Rspack plugin for UnoCSS",
   "author": "zonghao <zonghao1995@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zonghow/unocss-rspack-plugin"
+  },
   "keywords": [
     "unocss",
     "rspack-plugin"
