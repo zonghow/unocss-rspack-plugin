@@ -1,0 +1,38 @@
+{
+  "name": "unocss-rspack-plugin",
+  "version": "0.57.7",
+  "description": "The Rspack plugin for UnoCSS",
+  "author": "zonghao <zonghao1995@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "unocss",
+    "rspack-plugin"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@rspack/core": "^0.3 || ^0.4"
+  },
+  "dependencies": {
+    "@ampproject/remapping": "2.2.1",
+    "@rollup/pluginutils": "5.0.5",
+    "@unocss/config": "0.57.7",
+    "@unocss/core": "0.57.7",
+    "fast-glob": "3.3.2",
+    "magic-string": "0.30.5",
+    "webpack-sources": "3.2.3"
+  },
+  "devDependencies": {}
+}

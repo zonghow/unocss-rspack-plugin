@@ -1,0 +1,1 @@
+async function loader(t,e){const s=this.async(),i=this.resource,{exec:n}=this.getOptions();if(!n)return s(null,t,e);await n.call(this,t,e,i,s)}module.exports=loader;
