@@ -7,11 +7,11 @@ The Rspack plugin for UnoCSS.
 To begin, you'll need to install `unocss-rspack-plugin`
 
 ```console
-npm install --save-dev style-loader
+npm install --save-dev unocss-rspack-plugin
 
-yarn add -D style-loader
+yarn add -D unocss-rspack-plugin
 
-yarn add -D style-loader
+yarn add -D unocss-rspack-plugin
 ```
 
 ### rspack.config.js
